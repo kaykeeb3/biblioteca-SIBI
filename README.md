@@ -10,13 +10,18 @@
 
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
+### ⚙ BACK-END
 - PHP
-- Javascript
+- OpenAI GPT-3
 - MYSQL
+- Javascript
+
+## 💻 FRONT-END
 - HTML
 - CSS
-- OpenAI GPT-3
-- Git e GitHub
+- Git e Github
+
+
 
 ## 💻 Sobre o Projeto
 
