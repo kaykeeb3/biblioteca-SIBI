@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ /* Cores */
+:root {
+  --background: #DBEFE4;
+  --color-green: #2AB572;
+  --color-yellow: #FFBA00;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--background);
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 100vw;
+}
+
+.header-green {
+  width: 100vw;
+  height: 4%;
+  background-color: var(--color-green);
+}
+
+.header-yellow {
+  width: 100vw;
+  height: 4%;
+  background-color: var(--color-yellow);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo > .image {
+  border-radius: 100%;
+  margin: 26%;
+  width: 49%;
+  height: 40%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  &:hover {
+    filter: blur(3.5px);
+    cursor: pointer;
+  }
+}
+
+
+.title {
+  color: #000;
+  text-align: center;
+  font-weight: 400;
+  line-height: 48px;
+  margin-top: 45px;
+}
+
+.text-title {
+  font-weight: 400;
+  color: #2AB572;
+  text-align: center;
+  margin-top: 66px;
+  font-size: 14px;
+  line-height: 14.5px;
+}
+
+.form {
+  position: absolute;
+  margin-top: -10px;
+  transition: .5s;
+  width: 100%;
+  height: 50%;
+}
+
+
+.container-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#input-user {
+  margin-top: 51px;
+  border-radius: 20px;
+  padding: 24px 0px 16px 10px;
+  outline: none;
+  width: 263px;
+  text-align: initial;
+  border: none;
+  height: 30px;
+  background-color: #FAFAFA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#input-password {
+  margin-top: 51px;
+  border: none;
+  border-radius: 20px;
+  padding: 24px 0px 16px 10px;
+  outline: none;
+  width: 263px;
+  text-align: initial;
+  height: 30px;
+  background-color: #FAFAFA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 78px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2AB572;
+  width: 146px;
+  height: 28px;
+  color: #FFFF;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+footer {
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  line-height: 14px;
+  color: #000;
+  margin-top: 31.4rem;
+  height: 2rem;
+  width: 100%;
+}

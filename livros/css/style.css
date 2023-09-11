@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ /* Cores */
+:root {
+  --background: #DBEFE4;
+  --color-green: #2AB572;
+  --color-yellow: #FFBA00;
+  --color-text: #303030;
+  --color-border: #808586;
+  --color-white: #FAFAFA;
+}
+
+body {
+  background-color: var(--background);
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 100vw;
+}
+
+.header-green {
+  height: 4%;
+  background-color: var(--color-green);
+}
+
+.header-yellow {
+  height: 4%;
+  background-color: var(--color-yellow);
+}
+
+
+.div-search {
+  position: relative;
+  display: flex;
+  padding: 10px 10px 10px;
+  border-bottom: 1px dashed var(--color-text);
+}
+
+.input-search {
+  padding: 10px;
+  width: 100%;
+  outline: none;
+  border-radius: 24px 0px 0px 24px;
+  border: 2px solid var(--color-border);
+  border-right: none;
+  font-size: 16px;
+}
+
+.btn-search {
+  padding-right: 8px;
+  border-radius: 0px 24px 24px 0px;
+  border: 2px solid var(--color-border);
+  border-left: none;
+  background-color: var(--color-white);
+  cursor: pointer;
+}
+
+.fa-search {
+  width: auto;
+  font-size: 25px;
+}
+
+#selectCategorias {
+  margin-right: 0.9rem;
+  margin-left: 1rem;
+  outline: none;
+  border-radius: 24px;
+  border: 2px solid var(--color-border);
+  background-color: var(--color-green);
+  cursor: pointer;
+  text-align: center;
+  color: var(--color-white);
+}

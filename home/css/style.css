@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ /* Cores */
+:root {
+  --background: #DBEFE4;
+  --color-green: #2AB572;
+  --color-yellow: #FFBA00;
+  --color-text: #303030;
+  --color-text-secondary: #303030E5;
+}
+
+body {
+  background-color: var(--background);
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 100vw;
+}
+
+
+.header-green {
+  width: 100vw;
+  height: 4%;
+  background-color: var(--color-green);
+}
+
+.header-yellow {
+  width: 100vw;
+  height: 4%;
+  background-color: var(--color-yellow);
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 38.4px;
+  margin-left: 20px;
+  margin-top: 30px;
+  color: var(--color-text-secondary);
+}
+
+
+form {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+.search-box {
+  width: 90%;
+  display: flex;
+  background-color: #DBEFE4;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0px 1px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+input {
+  width: 94%;
+  background: #DBEFE4;
+  border-radius: 30px;
+  height: 40px;
+  color: var(--color-text);
+  padding: 8px 6px 10px;
+  text-transform: lowercase;
+  font-size: max(20px,1vw);
+  border: none;
+  font-size: 23px;
+  border-radius: 20px;   
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.fa-search {
+  color: var(--color-text);
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.columns-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 21px;
+}
+
+.card {
+  width: 140px;
+  height: 130px;
+  background-color: #2AB572;
+  display: grid;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+}
+
+.card:hover {
+  background-color: transparent;
+  color: var(--color-text);
+  border: 2px solid var(--color-green);
+}
+
+.link {
+  text-decoration: none;
+  text-align: center;
+}
+
+.icone-text {
+  width: 120px;
+}
+
+.title-text {
+  color: var(--color-text);
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+
+.fa-user,
+.fa-book,
+.fa-arrow-right,
+.fa-mobile,
+.fa-arrow-left
+{
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: var(--color-text);
+}
