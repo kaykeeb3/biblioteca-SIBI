@@ -7,7 +7,7 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- Php 8
+- Php 
 - MYSQL 
 - HTML
 - CSS
